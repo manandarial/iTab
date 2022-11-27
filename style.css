@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3078&q=80);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Alexandria', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(100px);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    width: 10rem;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 0 5px 0;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .time {
+        margin: 1rem;
+    }
+
+    small {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .time {
+        margin: 1rem;
+    }
+
+    .countdown {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .time {
+        margin: 1rem;
+    }
+
+    .time h2 {
+        font-size: 2rem;
+    }
+
+    .countdown {
+        width: 90vw;
+    }
+
+    .time h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .time {
+        margin: 1rem;
+    }
+
+    .time h2 {
+        font-size: 2rem;
+    }
+
+    .countdown {
+        width: 90vw;
+    }
+
+    .time h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .time {
+        margin: 1rem;
+    }
+
+    .time h2 {
+        font-size: 2rem;
+    }
+
+    small {
+        font-size: .6rem;
+    }
+
+    .countdown {
+        width: 90vw;
+    }
+
+    .time h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 1;
+    }
+}
